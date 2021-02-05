@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Arial';
+	margin:0;
+	padding:0;
+	color:#949494;
+	background:#EFF7FF;
+}
+
+p{color:#E3F2FF;}
+.acces{color:black;}
+.logo, h1{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	border:2px solid #7E7E7E;
+	border-radius:10px;  display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	margin-top:10px;
+	text-align:center;
+	background:#FFFFFF;
+}
+
+.logo2{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+	border:2px solid #7E7E7E;
+	border-radius:10px;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	margin-top:30px;
+	text-align:center;
+	background:#FFFFFF;
+}
+
+.panelbotons {
+	text-align: center;
+}
+
+.panelbotons>*{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+
+
+#contenidor{
+	width: 50%;
+	margin: 0 auto;
+	background: #ACC6E0;
+	padding: 30 px;
+	margin-top:10px;
+	border:2px solid #7E7E7E;
+	border-radius:10px;
+}
+
+#contenidor2{
+	width: 50%;
+	margin: 0 auto;
+	background: #ACC6E0;
+	padding: 30 px;
+	margin-top:10px;
+	border:2px solid #7E7E7E;
+	border-radius:10px;
+}
+
+#form{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:44%;
+	border:2px solid #7E7E7E;
+	border-radius:10px;
+	margin-top:10px;
+	margin-bottom:20px;
+	background:#829FB9;
+}
+
+#form2{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:44%;
+	border:2px solid #7E7E7E;
+	border-radius:10px;
+	margin-top:10px;
+	margin-bottom:20px;
+	background:#829FB9;
+	text-align: center;
+	padding: 10px;
+}
+#form>* ,table {
+	margin-left:15px;
+	margin-right:15px;
+}
+
+
+#contenidor h2{
+	margin-top:15px;
+	font-size: 20 px;
+	text-align: center;
+	color: white;
+}
+
+#contenidor #form{
+    margin-top: 50px;
+}
+
+#form p{
+    width: 100px;
+    margin-top:12px;
+}
+
+#buttons>*{
+	margin-top:15px;
+	margin-bottom:15px;
+	display:inline-block;
+}
+
+button[name="Llegir"],button[name="Editar"],button[name="Borrar"]{
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#topbuttons>*{
+	margin-top:1px;
+	position: absolute ;
+	margin-bottom:15px;
+	right: 20px;
+}
+
+button[type="submit"],input[type="button"],input[type="reset"],input[type="submit"]{
+	background: #ABBABF;
+	border-radius:5px;
+	padding:3px;
+}
+button[name="Llegir"]:hover, button[name="Editar"]:hover, button[name="Borrar"]:hover, button[name="Optar"]:hover, button[name="Contactar"]:hover{
+	background: cornflowerblue;
+}
+button[name="Sortir"]{
+	background: tomato;
+}
+button[name="Sortir"]:hover{
+	background: firebrick;
+}
+button[name="Enrere"]{
+	background: goldenrod;
+}
+button[name="Enrere"]:hover{
+	background: gold;
+}
+input[type="submit"]:hover{
+	background: cornflowerblue;
+}
+input[type="button"]:hover{
+	background: #F66C90;
+}
+input[type="reset"]:hover{
+	background: cornflowerblue;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+	width:80%;
+	padding-left:10px;
+	border-radius:5px;
+	color:#464646;
+}
+
+input[type="radio"]{
+	color:#464646;
+}
+
+input[type="text"]:required:valid,input[type="password"]:required:valid{border:1px solid green;}
+
+input[type="text"]:required:invalid,input[type="password"]:required:invalid{border:1px solid red;}
+
+/* TAULES CSS */
+
+#contentaula{
+	width: 82%;
+	background: #ACC6E0;
+	padding: 30 px;
+	margin-top:40px;
+	border:2px solid #7E7E7E;
+	border-radius:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#messages {
+	test-align:center;
+	color: brown;
+}
+#formtaula {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:96%;
+	border:2px solid #7E7E7E;
+	border-radius:10px;
+	margin-top:10px;
+	margin-bottom:20px;
+	background:#829FB9;
+}
+
+table{
+	width:100%;
+	margin-top: 40px;
+	margin-bottom: 2px;
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid #7E7E7E;
+	border-radius:20px;
+	padding: 20px;
+	background-color:#BAE7FF;
+}
+
+th{
+	text-align: center;
+	background-color: #3391C3;
+	color:#DADCDC;
+	vertical-align: center;
+	border: 1px solid #000;
+	border-spacing: 0;
+	border:2px solid #7E7E7E;
+	border-radius:4px;
+	padding: 1px;
+	margin-left:auto;
+	margin-right:auto
+}
+
+td{
+	vertical-align: center;
+	text-align: center;
+	background-color: #E5EEEE;
+	color:#3D3D3D;
+	padding: 30 px;
+	border: 1px solid #000;
+	border-spacing: 0;
+	border:2px solid #7E7E7E;
+	border-radius:4px;
+	padding: 2px;
+	margin-left:auto;
+	margin-right:auto
+
+}
